@@ -1,6 +1,7 @@
 .card {
     padding: 1.5rem 1.875rem 2rem;
     border-radius: 0.5rem;
+    box-shadow: 0 0 1rem hsla(217, 30%, 14%, 0.200);
 
     &.quote {
         background-image: url('/assets/images/bg-pattern-quotation.svg');
@@ -13,8 +14,6 @@
         display: flex;
         align-items: center;
         margin-bottom: 1.125rem;
-
-        color: $light-gray;
     }
 
     &__avatar {
@@ -24,7 +23,7 @@
         border-radius: 50%;
 
         &.s1 {
-            border-color: $light-gray;
+            border-color: $white-opa50;
         }
     }
 
@@ -41,7 +40,6 @@
     &__header {
         margin-bottom: 1.125rem;
         opacity: 90%;
-        color: $white;
         font-family: "Barlow-600";
         font-size: $font-m;
         line-height: 1.2;
@@ -49,12 +47,27 @@
 
     &__content {
         opacity: 50%;
-        color: $white;
         line-height: 1.2;
     }
 
     // Modifiers
     &--s1 {
+        color: $white;
         background-color: $moderate-violet;
+    }
+
+    &--s2 {
+        color: $white;
+        background-color: $very-dark-grayish-blue;
+    }
+
+    &--s3 {
+        color: $very-dark-grayish-blue;
+        background-color: $white;
+    }
+
+    &--s4 {
+        color: $white;
+        background-color: $very-dark-blackish-blue;
     }
 }
