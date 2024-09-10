@@ -25,6 +25,12 @@
         &.s1 {
             border-color: $white-opa50;
         }
+        &.s2 {
+            border-color: $very-dark-grayish-blue-opa50;
+        }
+        &.s3 {
+            border-color: $moderate-violet-opa50;
+        }
     }
 
     &__name {
@@ -33,6 +39,7 @@
     }
 
     &__status {
+        font-family: "Barlow-500";
         font-size: $font-s;
         opacity: 50%;
     }
@@ -46,6 +53,8 @@
     }
 
     &__content {
+        font-family: "Barlow-500";
+        font-size: $font-s;
         opacity: 50%;
         line-height: 1.2;
     }
@@ -70,4 +79,24 @@
         color: $white;
         background-color: $very-dark-blackish-blue;
     }
+}
+
+.c1 {
+    grid-area: c1;
+}
+
+.c2 {
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+}
+
+.c4 {
+    grid-area: c4;
+}
+
+.c5 {
+    grid-area: c5;
 }
